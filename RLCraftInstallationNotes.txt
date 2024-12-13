@@ -1,0 +1,107 @@
+What are these files used for?
+
+These are configuration files to add mods the RLCraft Dregora.  The three mods
+supported are Electroblob's Wizardry, Forbidden and Arcanus, and Hooked.  You
+can add any combination of these mods to the game at any time (it will not be
+a problem adding them to an existing game*).  Of course, you will back up your
+world and save copies of the config files just in case there is a problem.
+
+If you have not modified the config files, then you can simply copy them into
+the correct location after making a backup of the original files.  Then add the
+mod to your mods folder and it will work.  Very easy.  If you have modified the
+config files for some reason, you can do a diff of the files to see what 
+changes are needed and edit the files yourself.  If you want to add other spell
+packs for Electroblob's Wizardry, look at the reskillable.cfg file and it is
+easy to follow as an example.
+
+*On my installation of RLCraft Dregora, making any changes to config files or
+adding/removing mods makes the game crash when starting up and sometimes
+when loading the world.  Restarting or reloading the world once or twice seems
+to fix this problem.  I think this is due to the mod that tracks errors.
+However, the safest approach is to start a new world.
+
+Where do I put the files?
+
+Find your config folder in the RLCraft Dregora instance folder.  If you are 
+using curseforge, you can right click on the modpack icon to open the instance
+folder.  Otherwise, you need to find where you instance is stored.  Go into
+the config folder, rename the existing files with a .bak extension, and copy 
+the files into the following locations:
+
+reskillable.cfg and wabbity_armorunder.cfg goes in config/
+reforging materials.json goes in config/qualitytools/
+1.12.2.009+.cfg goes in config/setbonus/
+
+
+What versions of the mods should I use?
+
+Any of the mods you choose to use get copied into the mods/ folder.  The 
+following versions of the mods can be downloaded from curse and they were the
+most current versions as of writing this:
+
+Electroblob's Wizardry:  ElectroblobsWizardry-4.3.14.jar
+Forbidden and Arcanus: forbidden_arcanus-1.12.2-1.1.4.jar
+Hooked: hooked-1.0.3.jar
+
+
+What changes will these files make to the game?
+
+wibbity_armorunder.cfg allows adding temperature liners to the armor pieces
+from Electroblob's Wizardry and Forbidden and Arcanus.
+
+reskillable.cfg adds skill requirements to be able to use items as follows:
+
+Electroblob's Wizardry will require 3 magic for the magic missile spell,
+6 magic for novice spells, 14 magic for apprentice spells, 22 magic for 
+advanced spells, and 32 magic for master spells.
+
+Forbidden and Arcanus will require 28 defence for obsidian armor, arcane gold
+armor, and mortem armor and 32 defence for draco arcanus armor and tyr armor.
+
+Hooked will require 4 agility for wooden hooks, 10 agility for iron hooks,
+20 agility for diamond hooks, and 32 agility for red hooks and ender hooks.
+
+reforging materials.json adds materials for reforging in the quality tools
+reforging station as follows:
+
+Electroblob's Wizardry armor uses magic crystals to reforge armor.
+
+Forbidden and Arcanus uses obsidian ingots for obsidian armor, mortem armor,
+and draco arcanus armor and arcane gold ingots for arcane gold armor and tyr
+armor.
+
+Hooked uses ender eyes to reforge all tiers of hooks.
+
+1.12.2.009+.cfg adds set bonuses for Electroblob's Wizardry armor:
+
+Tier 1 armor adds the immunity set bonus (like silver armor)
+Tier 2 armor (sage and warlock sets) adds the immunity set bonus and +75%
+magic damage bonus (like golden armor)
+Tier 3 armor (battlemage set) adds the immunity set bonus and +150% magic
+damage bonus (like golden book wyrm scale armor)
+
+Note that I modified all set bonuses to be visible for quality of life.
+
+
+How will these mods affect the game?
+
+Electroblob's Wizardry will make playing a magic game viable.  The magic 
+damage bonuses work (and there is a hidden potion ring that is +75% magic
+damage, too).  However, even though the armor sets have immunity, you will
+find it rough going in the lost cities dimension because the mending
+enchantment does not work on Wizardry armor.  Without mending, the mobs will
+destroy your armor quickly.  Using Wizardry armor in the overworld is a 
+great option for fighting all those witch spawners while having fun using 
+magic.
+
+The top tiers of Forbidden and Arcanus armor is better than golem armor, but 
+only slightly better due to how the armor damage reduction caps out.  All of 
+the physical damage reduction in RLCraft is overpowered.  It won't make much 
+of a difference in the lost cities (I still use silver armor there).  The 
+reason I added this mod was for other mod features rather than the armor :).
+
+Hooked adds grappling hooks that can be equipped in a baubles slot and 
+fired using an assigned key (I set it to use F).  The mechanics are really
+good and user friendly.
+
+Adding any of these mods is optional, of course.
